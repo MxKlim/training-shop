@@ -1,0 +1,48 @@
+
+.collection-wrapper {
+  width: 100%;
+  display: flex;
+  margin-top: 9.6rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.collection-block, .sale-block {
+  position: relative;
+}
+.banner {
+  width: 29rem;
+  height: 7.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h2 {
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  p {
+    margin-top: 0.8rem; 
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  span {
+    color: #E91E63;
+  }
+
+}

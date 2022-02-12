@@ -1,0 +1,15 @@
+.advantage {
+  display: flex;
+  justify-content:space-between;
+  margin: 3.2rem 0;
+  flex-wrap: wrap;
+}
+.advantage__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.advantage-img {
+  margin-left: 0.8rem;
+}

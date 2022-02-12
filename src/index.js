@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from './components/header/header';
+import Slider from './components/slider/slider';
+import Advantage from './components/advantage/advantage';
+import Shop from './components/shops/shops';
+import ButtonAll from './components/buttonAll';
+import Collection from './components/colection/collection'
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <div className='container'>
+    <Header/>
+    <div className="wrapper">
+      <Slider/>
+      <Advantage/>
+      <Shop title={'women\'s'}/>
+      <ButtonAll/>
+      <Shop title={'men\'s'}/>
+      <ButtonAll/>
+      <Collection/>
+    </div>
+  </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

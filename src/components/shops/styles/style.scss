@@ -1,0 +1,81 @@
+.shop {
+  margin: 9.6rem 0 4.8rem 0;
+}
+.shop-choice {
+  display: flex;
+  justify-content: space-between;
+}
+.choice-list {
+  display: flex;
+}
+.card-place {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap:3rem;
+}
+.card {
+  position: relative;
+  width: 25.5rem;
+  height: 37.8rem;
+}
+.card-img {
+  span {
+    position: absolute;
+    width: 5.3rem;
+    height: 3.1rem;
+    color: #ffffff;
+    background: #E91E63;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 3.1rem;
+    text-align: center;
+    top: 2.5%;
+    left: 5%;
+  }
+}
+.shop__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+}
+.choice__item {
+  margin-right: 3.2rem; 
+  button {
+    background-color: inherit;
+    border: none;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+    text-transform: uppercase;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    &:hover{
+      font-weight: 500;
+      opacity: 1;
+    }
+  }
+}
+.card-title {
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.6;
+  margin-top: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.price-total {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.card-like {
+  font-size: 1.4rem;
+  color: #F0CC84;
+  line-height: 1.5rem;
+}
