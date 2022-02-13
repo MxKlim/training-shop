@@ -5,7 +5,10 @@ import Slider from './components/slider/slider';
 import Advantage from './components/advantage/advantage';
 import Shop from './components/shops/shops';
 import ButtonAll from './components/buttonAll';
-import Collection from './components/colection/collection'
+import Offer from './components/specialOffer/specialOffer';
+import Blog from './components/blog/blog';
+import Collection from './components/colection/collection';
+import Footer from './components/footer/footer';
 import './index.scss';
 
 ReactDOM.render(
@@ -20,7 +23,10 @@ ReactDOM.render(
       <Shop title={'men\'s'}/>
       <ButtonAll/>
       <Collection/>
+      <Offer/>
+      <Blog />
     </div>
+    <Footer/>
   </div>
     
   </React.StrictMode>,

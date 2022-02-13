@@ -15,13 +15,16 @@ const Header = () => {
         <ul className="address">
           <li className="address-item">
             <BsTelephoneFill/>
-            +375 29 100 20 30</li>
+            +375 29 100 20 30
+          </li>
           <li className="address-item">
             <MdRoom/>
-            Belarus, Gomel, Lange 17</li>
+            Belarus, Gomel, Lange 17
+          </li>
           <li className="address-item">
             <BsFillClockFill/>
-            All week 24/7</li>
+            All week 24/7
+          </li>
         </ul>
         <ul className="social-networks">
           <li className="social-networks__item">

@@ -1,7 +1,7 @@
 .advantage {
   display: flex;
   justify-content:space-between;
-  margin: 3.2rem 0;
+  margin: var(--padding-medium) 0;
   flex-wrap: wrap;
 }
 .advantage__item {

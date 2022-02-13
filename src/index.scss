@@ -5,10 +5,13 @@
   --ff-logo: 'Playfair Display SC', serif;
   --fs-standart: 1.2rem;
   --text-color: #121212;
+  --padding-std: 9.6rem;
+  --padding-medium: 3.2rem;
 }
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;

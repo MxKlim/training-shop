@@ -2,7 +2,7 @@
 .collection-wrapper {
   width: 100%;
   display: flex;
-  margin-top: 9.6rem;
+  margin-top: var(--padding-std);
   flex-wrap: wrap;
   gap: 3rem;
 }
